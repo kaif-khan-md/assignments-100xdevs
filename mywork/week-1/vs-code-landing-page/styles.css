@@ -1,0 +1,103 @@
+.topLink{
+    color:gray;
+    cursor: pointer;
+    padding-left: 15px;;
+
+}
+.al{
+    vertical-align: middle;
+    
+}
+
+input{
+    margin-left: 10px;  
+}
+a:link {
+    color: rgba(40, 170, 251, 0.807);
+   
+  
+  }
+
+  a:active {
+    color: rgba(40, 170, 251, 0.807);
+    
+  } 
+
+  a:visited {
+    color: rgba(40, 170, 251, 0.807);
+    
+  } 
+
+.textField{
+
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: rgba(255,255,255,0.04);
+    border-color: rgba(255,255,255,0.6);
+}
+
+.navbar{
+    color: white; 
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 5px;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+}
+
+.left-div{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text1{
+    border: 1px solid ;
+    border-color: rgba(255,255,255,0.6);
+    border-radius: 32px; 
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255,255,255,0.04);
+    
+}
+
+.text2{
+    width: 200px;
+    height: 50px;
+    font-size: 15px; 
+    color: white; 
+    background-color: rgba(40, 170, 251, 0.807);
+    border: 1px solid ;
+    border-color:  rgba(40, 170, 251, 0.807);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.download{
+    height: 30px;
+    width:100px;
+    font-size: 15px; 
+    color: white; 
+    background-color: rgba(40, 170, 251, 0.807);
+    border: 1px solid ;
+    border-color:  rgba(40, 170, 251, 0.807);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+}
+
+.banner{
+    color: grey;
+    display: flex;
+    justify-content: center;
+     margin-top: 20px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
