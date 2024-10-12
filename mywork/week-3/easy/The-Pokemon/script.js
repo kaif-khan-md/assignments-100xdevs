@@ -1,5 +1,5 @@
 // Replace 'your-api-key' with your actual Pokémon TCG API key
-const apiKey = 'fd57d329-19b1-4e01-8183-5c77b056aac7';
+const apiKey = 'secret-api-key';
 
 // Listen for the form submission
 function fetchPokemon() {
