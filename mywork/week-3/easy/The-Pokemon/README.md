@@ -1,18 +1,11 @@
 
 # The-Pokémon
 
-Your task is to design and implement an application that display Pokémon Cards.
+This Website extracts the pokemon cards based on the category and also checks for the no.of cards required.
 
-- user comes to site and enter number of cards and select category of Pokémon.
+Documentation used : https://docs.pokemontcg.io/api-reference/cards/
 
-**Hint**: take category and no of Pokémon, use API and render.
-
-## Resources:
-
-- refer this: https://pokeapi.co/
-- use this `https://pokeapi.co/api/v2/pokemon/${id}` api to get the pokemon data by id.
-
-**Note**: here id is a number. for example `https://pokeapi.co/api/v2/pokemon/1`
+![Screenshot (368)](https://github.com/user-attachments/assets/1bbdaa56-cc07-468b-a9c7-0eb1c4a09d1c)
 
 
 
