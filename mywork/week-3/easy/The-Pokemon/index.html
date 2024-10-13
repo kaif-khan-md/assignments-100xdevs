@@ -8,39 +8,34 @@
 </head>
 <body>
     <center>
-        <!-- <div id="main-container"> -->
+    
         <div id="container">
             <h1>Fetch Pokemons</h1>
     <input type="number" id="NumofPokemon" placeholder="Enter no. of Pokemons">
     <br>
-   
-    <h2>Categories</h2>
-    <ul>
-    Water<br>
-    Fire<br>
-    Grass<br>
-    Metal<br>
-    Psychic<br>
-    Fairy<br>
-    Fighting<br>
-    Lighting<br>
-    Dragon<br>
-    Darkness<br>
-    Colorless<br>
-    </ul>
     <br>
-
-    <input type="text" id="typeofPokemon" placeholder="Enter the category of pokemon">
-    <br>
-    <br>
+    <label for="pokemons">Choose a Category:</label>
+    <select name="pokemons" id="category">
+      <option value="water">Water</option>
+      <option value="grass">Grass</option>
+      <option value="metal">Metal</option>
+      <option value="fire">Fire</option>
+      <option value="psychic">Psychic</option>
+      <option value="fairy">Fairy</option>
+      <option value="fighting">Fighting</option>
+      <option value="lightning">Lightning</option>
+      <option value="dragon">Dragon</option>
+      <option value="darkness">Darkness</option>
+      <option value="colorless">Colorless</option>
+    </select>
+    <br><br>
+    
     <button onclick="fetchPokemon()" id="fetch-btn">FETCH</button>   
         </div>
-        <!-- <div id="container2"> -->
-           
-        <!-- </div> -->
-        <!-- </div> -->
+
     </center>
     <span id="card-results"></span> 
+
     <script 
     src="script.js"
     

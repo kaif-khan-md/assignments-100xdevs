@@ -25,8 +25,18 @@ p{
     color: rgba(23, 117, 81, 0.973);
 }
 
+select{
+    border-radius: 6px;
+    padding: 6px;
+    border-color: white;
+    width: 100px;
+    box-shadow: #717070 3px 3px;
+
+}
+
 body{  
     background-color: #0e0e0e;
+    background-image: url(https://images.unsplash.com/photo-1647892591711-f310c2a3ab7c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
 input{
@@ -49,10 +59,13 @@ input{
 }
 
 .card{
-     display:list-item;
-     justify-content: space-between;
      
+     display: list-item;
      color:white;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      margin-top: 20px;
+     background-color: rgba(225, 63, 13, 0.479);
+     margin-left: 600px;
+     margin-right: 600px;
 }
+
