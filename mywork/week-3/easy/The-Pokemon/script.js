@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 import { config } from "dotenv";
 config();
 const apiKey = process.env.POKEMON_TCG_API_KEY;
+=======
+// Replace 'your-api-key' with your actual Pokémon TCG API key
+const apiKey = 'secret-api-key';
+>>>>>>> origin/master
 
 function fetchPokemon() {
     
