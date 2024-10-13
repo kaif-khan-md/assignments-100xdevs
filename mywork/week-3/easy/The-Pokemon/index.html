@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokemonFinder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center>
+    
+        <div id="container">
+            <h1>Fetch Pokemons</h1>
+    <input type="number" id="NumofPokemon" placeholder="Enter no. of Pokemons">
+    <br>
+    <br>
+    <label for="pokemons">Choose a Category:</label>
+    <select name="pokemons" id="category">
+      <option value="water">Water</option>
+      <option value="grass">Grass</option>
+      <option value="metal">Metal</option>
+      <option value="fire">Fire</option>
+      <option value="psychic">Psychic</option>
+      <option value="fairy">Fairy</option>
+      <option value="fighting">Fighting</option>
+      <option value="lightning">Lightning</option>
+      <option value="dragon">Dragon</option>
+      <option value="darkness">Darkness</option>
+      <option value="colorless">Colorless</option>
+    </select>
+    <br><br>
+    
+    <button onclick="fetchPokemon()" id="fetch-btn">FETCH</button>   
+        </div>
+
+    </center>
+    <span id="card-results"></span> 
+
+    <script 
+    src="script.js"
+    
+    >
+    </script>
+</body>
+</html>
