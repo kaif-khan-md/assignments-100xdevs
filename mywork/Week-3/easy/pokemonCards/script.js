@@ -1,4 +1,4 @@
-const apiKey = "dd4cfca4-a941-45ba-ad5e-5a11411f8626";
+const apiKey = "YOUR_API_KEY";
 function fetchPokemon() {
     
     const numCards = document.getElementById('NumofPokemon').value;
@@ -58,4 +58,5 @@ function displayCards(cards) {
 
         resultsDiv.appendChild(cardDiv);
     });
+
 }
