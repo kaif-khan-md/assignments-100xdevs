@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the capital of India?",
+    "a": "Mumbai",
+    "b": "New Delhi",
+    "c": "Kolkata",
+    "d": "Chennai",
+    "correct": "b"
+  },
+  {
+    "question": "Which language is used for styling web pages?",
+    "a": "HTML",
+    "b": "CSS",
+    "c": "Python",
+    "d": "Java",
+    "correct": "b"
+  },
+  {
+    "question": "Inside which HTML element do we put JavaScript?",
+    "a": "<script>",
+    "b": "<js>",
+    "c": "<javascript>",
+    "d": "<code>",
+    "correct": "a"
+  },
+  {
+    "question": "Which company developed Java?",
+    "a": "Microsoft",
+    "b": "Oracle",
+    "c": "Sun Microsystems",
+    "d": "IBM",
+    "correct": "c"
+  },
+  {
+    "question": "Which is not a JavaScript framework?",
+    "a": "React",
+    "b": "Angular",
+    "c": "Vue",
+    "d": "Django",
+    "correct": "d"
+  },
+  {
+    "question": "What does CSS stand for?",
+    "a": "Creative Style Sheets",
+    "b": "Cascading Style Sheets",
+    "c": "Computer Style Sheets",
+    "d": "Colorful Style Sheets",
+    "correct": "b"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list?",
+    "a": "<ol>",
+    "b": "<ul>",
+    "c": "<li>",
+    "d": "<list>",
+    "correct": "b"
+  },
+  {
+    "question": "Which is the largest planet in our Solar System?",
+    "a": "Earth",
+    "b": "Mars",
+    "c": "Jupiter",
+    "d": "Saturn",
+    "correct": "c"
+  },
+  {
+    "question": "Which keyword is used to define a constant in JavaScript?",
+    "a": "var",
+    "b": "let",
+    "c": "const",
+    "d": "constant",
+    "correct": "c"
+  },
+  {
+    "question": "Which protocol is used to load a web page?",
+    "a": "FTP",
+    "b": "SMTP",
+    "c": "HTTP",
+    "d": "SNMP",
+    "correct": "c"
+  }
+]
