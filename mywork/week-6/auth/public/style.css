@@ -1,0 +1,48 @@
+body{
+    margin : 0;
+    background-color: #162145;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    background-color: #13204a;;
+    margin : 10px 0;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+
+    
+}
+
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    cursor:text;
+
+}
+
+input:focus{
+    
+    outline: none;
+}
+
+button{
+    background-color: #007bff;
+     padding: 10px;
+    border-radius: 10px;
+    border : none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #0270e6;
+}
